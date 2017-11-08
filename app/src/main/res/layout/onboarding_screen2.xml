@@ -2,30 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="@dimen/padding_layout"
     android:gravity="center_horizontal"
-    android:background="#7596ff">
+    android:background="@color/background">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Prepárate para el evento"
+        android:text="@string/onboarding2_titulo"
         android:textAlignment="center"
-        android:textSize="25sp"
-        android:layout_marginTop="50dp"
-        android:textColor="#ffffff"/>
+        android:textSize="@dimen/text_titulo"
+        android:layout_marginTop="@dimen/dimen_titulo"
+        android:textColor="@color/blanco"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Encuentra todo lo necesario para sacar el máximo provecho del evento"
+        android:text="@string/onboarding2_descripcion"
         android:textAlignment="center"
-        android:textSize="18sp"
-        android:textColor="#ffffff"/>
+        android:textSize="@dimen/text_descripcion"
+        android:textColor="@color/blanco"/>
 
     <ImageView
-        android:layout_width="280dp"
-        android:layout_height="430dp"
+        android:layout_width="@dimen/phone_width"
+        android:layout_height="@dimen/phone_height"
         android:src="@mipmap/iphone_1845808_960_720" />
 
 

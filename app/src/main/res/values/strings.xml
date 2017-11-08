@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Maquetacio_Meetmaps</string>
+    <string name="onboarding1_titulo">Expande tu red</string>
+    <string name="onboarding1_descripcion">Date visibilidad y haz nuevos contactos de manera inteligente</string>
+    <string name="onboarding2_titulo">Prepárate para el evento</string>
+    <string name="onboarding2_descripcion">Encuentra todo lo necesario para sacar el máximo provecho del evento</string>
+    <string name="onboarding3_titulo">Rompe el hielo</string>
+    <string name="onboarding3_descripcion">Interactúa con los otros participantes utilizando las ice-breaking features</string>
 </resources>
